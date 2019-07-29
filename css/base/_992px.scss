@@ -1,0 +1,314 @@
+/**
+ *  MEDIA-QUERY 992PX
+ ====================================================================================*/
+@media (max-width: 992px) {
+
+    .wrap {
+        max-width: 768px;
+        padding: 0;
+    }
+    .page-home {
+        padding-top: 165px;
+        background-position-y: 43%;
+
+        .block-img {
+            display: none;
+        }
+    }
+
+
+    /* ===========
+          STATS
+       =========== */
+
+    .page-stats {
+
+
+
+        .block-stats {
+
+            .block-list {
+                margin-left: 252px;
+            }
+
+            img {
+                left: 5px;
+            }
+        }
+    }
+
+
+    .page-features {
+
+    }
+
+    /* ==============
+          FEATURES
+       ============== */
+
+    .page-features {
+
+
+        & .block__title {
+            text-align: center;
+            margin: 0;
+        }
+
+        & .block__subtitle {
+            text-align: center;
+            margin-left: 0;
+        }
+
+
+        .block-img {
+            display: none;
+        }
+
+        .block-features {
+            margin-top: 82px;
+
+            &_left {
+                flex-basis: 47%;
+                margin: 0;
+
+                .block__title {
+                    text-align: right;
+                }
+            }
+
+            &_right {
+                flex-basis: 47%;
+                margin: 0;
+
+                .block__title {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+
+    /* ==============
+          RESULTS
+       ============== */
+
+    .page-results {
+
+        .wrap {
+            padding: 0;
+            margin: 0 auto;
+            width: 768px;
+        }
+
+        & .block__title {
+            text-align: center;
+            margin: 0;
+        }
+
+        & .block__subtitle {
+            text-align: center;
+            margin-left: 0;
+        }
+
+        .block-results {
+            position: relative;
+
+            .block-results-ava {
+
+                &_before {
+                    top: calc(50% - 130px);
+                    left: -117px;
+                    width: 200px;
+                    height: 260px;
+                }
+            }
+        }
+    }
+
+
+
+    /* ==============
+          FEEDBACK
+       ============== */
+
+    .page-testi {
+
+        .wrap {
+            padding: 0;
+        }
+
+        .owl-carousel .owl-stage-outer {
+        }
+        & .block__title {
+            text-align: center;
+            margin: 0;
+        }
+
+        & .block__subtitle {
+            text-align: center;
+            margin-left: 0;
+        }
+
+        .block-testi {
+            margin-left: auto;
+
+            &-client {
+                margin-left: auto;
+                width: 50%;
+
+                .block__title,
+                .block__subtitle {
+                    text-align: center;
+                }
+
+                &__name::before {
+                    left: calc(50% - 17.5px);
+                }
+            }
+        }
+    }
+
+
+
+    /* ==============
+          SUPPLEMENT
+       ============== */
+    .page-facts {
+
+        .wrap {
+            padding: 0 15px;
+        }
+
+        .block__title,
+        .block__subtitle {
+            text-align: center;
+            margin-left: 0;
+        }
+
+        .block-facts {
+            flex-wrap: wrap;
+
+            &-catalog {
+                flex-basis: 100%;
+                order: 2;
+                margin-top: 20px;
+
+                .btn_primary {
+                    display: inline-block;
+                    margin: 56px auto 27px 151px;
+                }
+            }
+
+            &-info {
+                flex-basis: 100%;
+
+                &__img {
+                    float: left;
+                }
+
+                .block__title {
+                    margin-left: 18%;
+                }
+
+                .block__text {
+                    margin-top: 54px;
+                }
+            }
+        }
+    }
+
+    /* ==============
+        SUPPLEMENT
+       ============== */
+
+    .page-supp {
+        padding-bottom: 290px;
+
+        .wrap {
+            padding: 0;
+        }
+
+
+        .block-supp {
+
+            .block-img img {
+                left: -235px;
+                top: -24px;
+                z-index: -1;
+
+            }
+
+            &-info {
+                flex-basis: 66%;
+                margin: 0;
+
+                .block__text {
+                    width: 100%;
+                }
+            }
+
+
+        }
+    }
+
+
+    /* ==============
+          SUBSCRIBE
+       ============== */
+
+    .page-subscribe {
+
+        .wrap {
+            padding: 0;
+        }
+
+        .block__title,
+        .block__subtitle {
+            text-align: center;
+            margin-left: 0;
+        }
+
+        .input-box {
+            width: 70%;
+        }
+    }
+
+
+
+    /* ==============
+          CONTACT
+       ============== */
+
+    .page-contacts {
+
+        .wrap {
+            padding: 0 15px;
+        }
+
+        .block__title,
+        .block__subtitle {
+            text-align: center;
+            margin-left: 0;
+        }
+
+        .block__form {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 59px;
+
+            input[name="email"] {
+                margin-left: 44px;
+            }
+
+            .btn_primary {
+                text-align: center;
+                margin-left: 246px;
+            }
+        }
+    }
+
+
+
+
+
+}

@@ -1,0 +1,21 @@
+/**
+ *  PLUG-IN FONTS
+ *
+ *  1. 'Lato'.
+ *  2. 'Raleway'.
+ *  3. 'Helvetica Heavy'. Serves for our logo-text only.
+ */
+
+                            /* 1 */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,600,700,900');
+
+                            /* 2 */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800,900&display=swap');
+
+                            /* 3 */
+@font-face {
+    font-family: 'Helveitca Heavy';
+    src: url("../fonts/helvetica/HelveticaNeueLTStd-Hv.otf");
+}
+
+
